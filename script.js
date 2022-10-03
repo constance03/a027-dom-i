@@ -10,10 +10,16 @@ fruta2.innerHTML = frutas[1]
 let fruta3 = document.getElementById("fruta-3")
 fruta3.innerHTML = frutas[2]
 
+//usando loop
+//let listaFrutas = document.getElementsByTagName("li")
+// for (let i in frutas){
+//     listaFrutas[i].innerHTML = frutas[i]
+// }
+
 //exercicio2
 let valorFrutaInput = document.getElementById("frutinha")
 
-function valorDoInput() {
+function valorDoInput () {
     console.log(valorFrutaInput.value);
 }
 
